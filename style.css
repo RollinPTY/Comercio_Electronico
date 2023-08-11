@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #088;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 3px #0000002d;
+    padding: 20px 80px;
+    position: sticky;
+   
+}
+
+p {
+    font-size: 16px;
+    color: #088;
+}
+
+#input {
+    text-align: center;
+    background-color: rgba(1, 118, 118, 0.989);
+    padding: 3px;
+    
+}
+
+input {
+    border-radius: 5px;
+    box-shadow: 1px #000;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0px 20px ;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+}
+
+#navbar li a:hover,
+#navbar li a:active {
+    color: #000;
+}
+
+#entrada {
+    background-image: url("img/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0 ;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#entrada h4 {
+    padding-bottom: 15px;
+}
+#entrada h1 {
+    color: #088;
+}
+
+#entrada button {
+    background-color: transparent;
+    color: #000;
+    border: 0;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+#servicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#servicio .SV-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px #00000042;
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#servicio .SV-box img {
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+#servicio .SV-box h6 {
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088;
+    background-color: #cdebbc;
+}
+
+#servicio .SV-box:nth-child(2) h6{
+    background-color: #fddde4;
+}
+
+#servicio .SV-box:nth-child(3) h6{
+    background-color: #fff2e5;
+}
+
+#servicio .SV-box:nth-child(4) h6{
+    background-color: #d1e8f2;
+}
+
+#servicio .SV-box:nth-child(5) h6{
+    background-color: #cdd4f8;
+}
+
+#category1 {
+    text-align: center;
+}
+
+#category1 .pro-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+#category1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.02);
+    margin: 15px;
+    position: relative;
+}
+
+#category1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#category1 .pro .des {
+    text-align: center;
+    padding: 10px 0;
+}
+
+#category1 .pro .des h5 {
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+/* FOOTER */
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
+
+  /* pagina de productos */
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+
+#category1 .procc{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
